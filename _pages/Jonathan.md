@@ -1,14 +1,9 @@
 ---
 title: "Bericht Jonathan Hecht"
 permalink: /Jonathan/
+toc: true
+toc_label: "Inhaltsverzeichnis"
 author_profile: true
-# last_modified_at: 2025-03-02T16:20:02-05:00
-# categories:
-#   - Blog
-# tags:
-#   - Post Formats
-#   - readability
-#   - standard
 
 author:
   name     : "Jonathan Hecht"
@@ -22,6 +17,15 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/jp-hecht"
+
+
+excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
+header:
+  overlay_image: {{ site.url }}{{ site.baseurl }}/assets/images/test.gif
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 
 
 ---
@@ -41,6 +45,7 @@ author:
     style="width: 100%; height: 40vh;">
 </model-viewer>
 
+## HEader trest
 
 # Experimente mit MM
 
