@@ -26,6 +26,7 @@ author:
 
 # Working
 
+<script type="module" src="https://unpkg.com/@google/model-viewer@latest"></script>
 
 <model-viewer 
     src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
