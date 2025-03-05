@@ -1,6 +1,6 @@
 ---
 title: "Home"
-permalink: /
+permalink: /home/
 author_profile: false
 
 excerpt: "This post should display a **header with a solid background color**, if the theme supports it."
