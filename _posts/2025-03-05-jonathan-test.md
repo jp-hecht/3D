@@ -33,7 +33,7 @@ author:
 <body>
     <h2>3D Model Viewer (OBJ Format)</h2>
     <model-viewer 
-        src="/assets/test_car.obj"
+        src="{{ site.url }}{{ site.baseurl }}/assets/test_car.obj"
         alt="3D model"
         camera-controls 
         auto-rotate
