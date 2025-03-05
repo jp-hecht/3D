@@ -1,6 +1,6 @@
 main:
   - title: "Berichte"
-    url: /report/
+    url: /posts/
   # - title: "Categories"
   #   url: /categories/
   # - title: "Tags"
