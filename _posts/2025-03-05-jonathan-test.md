@@ -24,6 +24,27 @@ author:
 
 ---
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module"
+        src="https://unpkg.com/@google/model-viewer@latest"></script>
+</head>
+<body>
+    <h2>3D Model Viewer (OBJ Format)</h2>
+    <model-viewer 
+        src="/assets/models/my-model.obj"
+        alt="3D model"
+        camera-controls 
+        auto-rotate
+        exposure="1"
+        shadow-intensity="1"
+        skybox-image="none">
+    </model-viewer>
+</body>
+</html>
+
+
 # Experimente mit MM
 
 Hier ein bisschen Bericht und so weiter 
