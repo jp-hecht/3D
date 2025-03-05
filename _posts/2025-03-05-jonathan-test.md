@@ -44,8 +44,8 @@ author:
     <script type="module"
         src="https://unpkg.com/@google/model-viewer@latest"></script>
 </head> -->
-<body>
-    <h2>3D Model Viewer (OBJ Format)</h2>
+<!-- <body>
+    <h2>3D Model Viewer (OBJ Format)</h2> -->
 <model-viewer 
     src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
     alt="3D model"
@@ -56,8 +56,8 @@ author:
     loading="eager"
     shadow-intensity="1">
 </model-viewer>
-</body>
-</html>
+<!-- </body>
+</html> -->
 
 
 # Experimente mit MM
