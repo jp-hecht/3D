@@ -23,6 +23,20 @@ author:
 
 
 ---
+# Testing
+
+<model-viewer 
+    src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
+    alt="3D model"
+    camera-controls 
+    auto-rotate
+    exposure="1"
+    shadow-intensity="1"
+    ar
+    style="width: 100%; height: 80vh;">
+</model-viewer>
+
+# Working
 
 <!DOCTYPE html>
 <html lang="en">
