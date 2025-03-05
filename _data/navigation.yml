@@ -7,6 +7,9 @@ main:
   #   url: /tags/
   - title: "Jonathan"
     url: /Jonathan/
-
+  - title: "Madelaine"
+    url: /Madelaine/
+  - title: "Marlene"
+    url: /Marlene/
   - title: "About"
     url: /about/
