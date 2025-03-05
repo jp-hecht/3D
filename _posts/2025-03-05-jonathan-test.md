@@ -32,15 +32,14 @@ author:
 </head>
 <body>
     <h2>3D Model Viewer (OBJ Format)</h2>
-    <model-viewer 
-        src="{{ site.url }}{{ site.baseurl }}/assets/test_car.obj"
-        alt="3D model"
-        camera-controls 
-        auto-rotate
-        exposure="1"
-        shadow-intensity="1"
-        skybox-image="none">
-    </model-viewer>
+<model-viewer 
+    src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
+    alt="3D model"
+    camera-controls 
+    auto-rotate
+    exposure="1"
+    shadow-intensity="1">
+</model-viewer>
 </body>
 </html>
 
