@@ -38,12 +38,12 @@ author:
 
 # Working
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <script type="module"
         src="https://unpkg.com/@google/model-viewer@latest"></script>
-</head>
+</head> -->
 <body>
     <h2>3D Model Viewer (OBJ Format)</h2>
 <model-viewer 
@@ -52,6 +52,8 @@ author:
     camera-controls 
     auto-rotate
     exposure="1"
+    tone-mapping="aces"
+    loading="eager"
     shadow-intensity="1">
 </model-viewer>
 </body>
