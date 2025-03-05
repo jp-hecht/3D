@@ -5,6 +5,8 @@ main:
   #   url: /categories/
   # - title: "Tags"
   #   url: /tags/
+  - title: ""
+    url: /home/
   - title: "Jonathan"
     url: /Jonathan/
   - title: "Madelaine"
