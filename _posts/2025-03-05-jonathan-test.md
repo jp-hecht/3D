@@ -23,8 +23,17 @@ author:
 
 
 ---
-# Testing
 
+# Working
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="module"
+        src="https://unpkg.com/@google/model-viewer@latest"></script>
+</head>
+<body>
+    <h2>3D Model Viewer (OBJ Format)</h2> -->
 <model-viewer 
     src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
     alt="3D model"
@@ -33,31 +42,10 @@ author:
     exposure="1"
     shadow-intensity="1"
     ar
-    style="width: 100%; height: 80vh;">
+    style="width: 100%; height: 40vh;">
 </model-viewer>
-
-# Working
-
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <script type="module"
-        src="https://unpkg.com/@google/model-viewer@latest"></script>
-</head> -->
-<!-- <body>
-    <h2>3D Model Viewer (OBJ Format)</h2> -->
-<model-viewer 
-    src="{{ site.url }}{{ site.baseurl }}/assets/test_car.glb"
-    alt="3D model"
-    camera-controls 
-    auto-rotate
-    exposure="1"
-    tone-mapping="aces"
-    loading="eager"
-    shadow-intensity="1">
-</model-viewer>
-<!-- </body>
-</html> -->
+</body>
+</html>
 
 
 # Experimente mit MM
